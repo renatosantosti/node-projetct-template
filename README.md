@@ -27,4 +27,5 @@ npm install --save-dev babel-cli babel-preset-env
 
 
 ## Referências
+#### -  https://blog.risingstack.com/10-best-practices-for-writing-node-js-rest-apis/
 #### -  https://www.youtube.com/watch?v=joTc5o9lFCg
