@@ -9,6 +9,11 @@ A template for node backend projects
 #### Nodemon
 #### NVM
 #### Babel
+npm install --save-dev babel-cli babel-preset-env
+##### Configurar o sarquivo package.json
+
+    "start": "nodemon --exec babel-node src/app.js",
+    "build": "rimraf dist && babel src/ -s -D -d dist ",
 #### rimraf
 ##### Objetivo: habilitar a execução do comando rm -rf no Windows
 ##### Instalação npm install --save-dev babel-cli babel-preset-env
