@@ -7,8 +7,10 @@ A template for node backend projects
 
 ### Instalação de dependências para DEV
 #### Nodemon
-#### nvm
+#### NVM
 #### Babel
+#### rimraf
+##### Objetivo: habilitar a execução do comando rm -rf no Windows
 ##### Instalação npm install --save-dev babel-cli babel-preset-env
 ###### Criar arquivo  .babelrc na raiz do projeto com seguinte conteúdo:
 
@@ -18,3 +20,6 @@ A template for node backend projects
 
 ###Dependências comuns a projetos de API e consulta a banco de dados
 
+
+## Referências
+#### -  https://www.youtube.com/watch?v=joTc5o9lFCg
