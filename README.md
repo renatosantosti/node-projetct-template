@@ -2,15 +2,15 @@
 A template for node backend projects
 
 
-##Configurando ambiente VSCODE
-###Extensões
+## Configurando ambiente VSCODE
+### Extensões
 
-###Instalação de dependências para DEV
-####Nodemon
-####nvm
-####Babel
-##### 
-######Criar arquivo  .babelrc na raiz do projeto com seguinte conteúdo:
+### Instalação de dependências para DEV
+#### Nodemon
+#### nvm
+#### Babel
+##### Instalação npm install --save-dev babel-cli babel-preset-env
+###### Criar arquivo  .babelrc na raiz do projeto com seguinte conteúdo:
 
 {
   "presets": ["env"]
