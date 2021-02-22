@@ -3,11 +3,28 @@ A template for node backend projects
 
 
 ## Configurando ambiente VSCODE
-### Extensões
 
 ### Instalação de dependências para DEV
+
+#### Curl 
+    sudo apt install curl
+
+#### NodeJS by NVM
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+    source ~/.bashrc
+    nvm list-remote
+    nvm install v1X.6.0
+    nvm use v1X.6.0
+    
+#### NPM
+    sudo apt install npm
+    
 #### Nodemon
-#### NVM
+    npm install nodemon   
+
+
+### Extensões
+
 #### Babel
 npm install --save-dev babel-cli babel-preset-env
 ##### Configurar o arquivo package.json
